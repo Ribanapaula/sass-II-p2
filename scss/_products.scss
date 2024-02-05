@@ -1,0 +1,34 @@
+.products {
+   
+    &__subtitle {
+        color: $color-02;
+    }
+    &__item {
+        color: $color-04;
+
+        &__button {
+            background-color: $color-default;
+        }
+    }
+
+
+    //&__title {
+        //color: $color-02;
+    //}
+    
+    //&__item {
+      //  color: $color-04;
+    //}
+
+    //&__button {
+      //  background-color: $color-default;
+       // color: $color-01;
+       // border-radius: 5px;
+       // text-align: center;
+       // text-decoration: solid;
+       // font-size: $font-small;
+      //  padding: 4px 8px;
+   // }
+}
+
+
