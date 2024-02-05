@@ -1,0 +1,173 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+div,
+p {
+  display: block;
+}
+
+header,
+section,
+footer {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  padding: 4rem 0;
+}
+
+section {
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 1rem;
+}
+@media (max-width: 1199px) {
+  .container {
+    max-width: 300%;
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: Lucida, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  color: #79acfa;
+}
+
+p {
+  color: rgb(59, 59, 61);
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(59, 59, 61);
+  font-family: Lucida, Helvetica, sans-serif;
+  font-size: 4rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+h2 {
+  color: #87b4f8;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: rgb(56, 4, 241);
+  font-size: 2rem;
+}
+
+header,
+footer {
+  background-color: #d0fce6;
+}
+
+.blocks {
+  padding: 3rem 0;
+}
+.blocks__title {
+  color: rgb(59, 59, 61);
+}
+.blocks__list {
+  list-style-type: none;
+  font-size: 1.5rem;
+  display: block;
+  justify-content: space-between;
+  height: auto;
+  margin: 1.5rem auto;
+  float: left;
+  padding: 1rem 0;
+  width: 100%;
+}
+.blocks__item {
+  color: #87b4f8;
+  display: block;
+  margin: 1.5rem auto;
+  text-align: center;
+  width: calc(33% - 10px);
+}
+@media (max-width: 999px) {
+  .blocks__item {
+    width: calc(99% - 10px);
+  }
+}
+.blocks__item__img-container {
+  display: block;
+  height: 15rem;
+  overflow: hidden;
+  width: 100%;
+}
+@media (max-width: 999px) {
+  .blocks__item__img-container {
+    height: 20rem;
+  }
+}
+.blocks__item__button {
+  background-color: rgb(59, 59, 61);
+  border-radius: 5px;
+  color: rgb(56, 4, 241);
+  display: block;
+  font-size: 2.5rem;
+  margin: 3rem auto 1.5rem;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.products__subtitle {
+  color: #87b4f8;
+}
+.products__item {
+  color: #08dffc;
+}
+.products__item__button {
+  background-color: #79acfa;
+}
+
+.destack {
+  background-color: #f4f8dc;
+  padding: 1.5rem;
+}
+.destack__title {
+  color: rgb(56, 4, 241);
+  float: justify;
+  font-size: 4rem;
+  margin-top: 0;
+}
+.destack__subtitle {
+  float: justify;
+  font-size: 2.5rem;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+  color: #87b4f8;
+}
+.destack__image {
+  width: 25%;
+  height: 25%;
+  margin: 1.5rem;
+  display: table-row-group;
+  text-align: center;
+}
+.destack__description {
+  font-size: 1.5rem;
+  color: rgb(59, 59, 61);
+  padding: 1rem 0;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
